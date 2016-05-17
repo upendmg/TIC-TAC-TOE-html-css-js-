@@ -1,0 +1,159 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-image: url('http://www.solidbackgrounds.com/images/1600x900/1600x900-lavender-indigo-solid-color-background.jpg');
+  font-family: 'Schoolbell', cursive;
+}
+
+h1 {
+	text-align: center;
+	margin-bottom: 2%;
+	font-size: 400%;
+	margin-top: 2%;
+    color: #663300;
+   }
+
+#symbol-container {
+	position: absolute;
+	margin: 10% 40%;
+	height: 10%;
+	width: 10%;
+	text-align: center;
+	border: 4px solid red;
+	background-color: blue;
+	padding: 5%;
+}
+
+#symbol-container button {
+	padding: 20px 20px;
+	margin: 0 1%;
+}
+footer {
+  background-color: black;
+  color: red;
+  line-height: 5px;
+  padding-top: 5px;
+  padding-bottom: 2px;
+  position: fixed;
+  text-align: center;
+  font-family: cursive, sans-serif;
+  width: 100%;
+  bottom: 0;
+}
+
+#x {
+	color: #00FF00;
+}
+
+#o {
+	color: #e74c3c;
+}
+
+.container {
+	height: 45%;
+	width: 30%;
+	text-align: center;
+    margin: 0 auto;
+   visibility: hidden;
+}
+
+.container span {
+	height: 30%;
+	width: 30%;
+	border: 2px black solid;
+	display: inline-block;
+	border-radius: 2%;
+}
+
+.container span:hover {
+	background-color:#F80000 ;
+}
+
+.top {
+	border-top: none !important;
+	border-bottom: none !important;
+}
+
+.bottom {
+	border-bottom: none !important;
+	border-top: none !important;
+}
+
+.left {
+	border-left: none !important;
+	margin-right: -2%;
+}
+
+.right {
+	border-right: none !important;
+	margin-left: -2%;
+}
+
+.space {
+	font-size: 450%;
+	text-align: center;
+	line-height: 100px;
+}
+
+p {
+	margin-top: 5%;
+}
+
+button {
+	font-family: "Lucida Console", Monaco, monospace;
+	background-color: #CCFF00;
+	border: 2px solid black;
+	border-radius: 5%;
+	outline: none;
+	box-shadow: 1px 1px 1px black;
+}
+
+.new {
+	padding: 20px 20px;
+	margin-bottom: 2%;
+}
+
+.reset {
+	padding: 0 18px;
+}
+
+.red {
+	color: #eCC0000;
+}
+
+.blue {
+	color: #3333FF;
+}
+
+#left {
+	float: left;
+	margin-left: 15%;
+	margin-top: 5%;
+	font-size: 150%;
+	text-align: center;
+	visibility: hidden;
+}
+
+#right {
+	float: right;
+	margin-right: 15%;
+	margin-top: 5%;
+	font-size: 150%;
+	text-align: center;
+	visibility: hidden;
+}
+
+span {
+	font-size: 200%;
+}
+
+#left span {
+	color: #339900;
+}
+
+#right span {
+	color: #FF0099;
+}
